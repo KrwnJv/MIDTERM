@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>
+        LOGIN user
+    </title>
+    <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+    <h1>Input user credentials</h1>
+    <div class="container">
+        <form action="/login" method="POST">
+            <label>Username:</label>
+            <br>
+                <input class="input" id="username" name="username" placeholder="type username">
+            </br>
+            <label>Password:</label>
+            <br>
+                <input class="input" id="password" name="password" placeholder="type password">
+            </br>
+            <br>
+                <button type="LOGIN" class="btn"><span>Login</span></button>
+            </br>
+        </form>
+        <a href="/register">
+            <button type="REGISTER" class="btn"><span>Register</span></button>
+        </a>
+    </div>
+</body>
+</html>
